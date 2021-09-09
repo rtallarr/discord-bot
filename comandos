@@ -1,0 +1,4 @@
+python -m venv nombre | (crear virtual env)
+Set-ExecutionPolicy Unrestricted -Scope Process | (dar permiso admin para activar)
+env/Scripts/activate | (activar venv)
+pip freeze > requirements.txt | (crear reqs)
